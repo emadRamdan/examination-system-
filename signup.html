@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUP</title>
+    <link rel="stylesheet" href="styles/register.css">
+    <link href="./assests/fontawesome-free-6.5.1-web/css/all.css" rel="stylesheet">
+
+    <!-- support v4 icon references/syntax -->
+    <link href="./assests/fontawesome-free-6.5.1-web/css/v4-shims.css" rel="stylesheet">
+    <script type="module" src="scripts/signUpscript.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="form signUP">
+            <div class="header">Register</div>
+
+            <form action="login.html">
+
+                
+                <div class="field fname-field">
+                    <div class="input-field">
+                    <input type="text" class="fname" placeholder="user name">
+                    </div>
+                    <span  class="error fname-error">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <!-- <i>X</i> -->
+                        <p class="error-text">please enter at least 3 characters </p>
+                    </span>
+                </div>
+
+                <div class="field role-field">
+                    <div class="input-field">
+                    <!-- <input type="text" class="lname" placeholder="how are you? "> -->
+                    <select name="role" id="role" class="userRole">
+                        <option value="student" selected>who you are?</option>
+                        <option value="student">student</option>
+                        <option value="instructor">instructor</option>
+                    </select>
+                    </div>
+                    <!-- <span  class="error lname-error">
+                        <i>X</i>
+                        <p class="error-text">please enter at least 8  alphanumeric characters</p>
+                    </span> -->
+                </div>
+
+                <div class="field email-field">
+                    <div class="input-field">
+                     <input type="emai" class="email" placeholder="Email" >
+                    </div>
+                    <span  class="error email-error">
+                        <!-- <i>X</i> -->
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <p class="error-text">enter a valid email exam@gm.com</p>
+                    </span>
+                </div>
+
+                <div class="field cPassword-field">
+                    <div class="input-field">
+                     <input type="password" class="password" placeholder="Passsword" >
+                     <!-- <i class="eyee">@</i> -->
+                     <i class=" eyee fa-solid fa-eye-slash"></i>
+                    </div>
+                    <span class="error cpassword-error">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <!-- <i>X</i> -->
+                        <p class="error-text">pass must cotain both capital and small letter & numbe and sympol</p>
+                    </span>
+                </div>
+
+                <div class="field confirmPass-field">
+                    <div class="input-field">
+                        <input type="password" class="cpasssword" placeholder="confirm Passsword" >
+                        <!-- <i class="eyee">@</i> -->
+                     <i class=" eyee fa-solid fa-eye-slash"></i>
+                    </div>
+                    <span class="error confirmPass-error">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <!-- <i>X</i> -->
+                        <p class="error-text">passsword not match</p>
+                    </span>
+                </div>
+
+                <div class="field">
+                    <div class="input-field button">
+                        <input type="submit" name="submit" id="sub1" value="Signup">
+                       
+                    </div>
+                </div>
+            </form>
+
+           <div class="link">
+                <span>Already have an account ?</span>
+                <a href="login.html">login</a>
+           </div>
+          </div>
+    </div>
+    
+</body>
+</html>

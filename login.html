@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<link rel="stylesheet" href="styles/Login.css">
+<link href="./assests/fontawesome-free-6.5.1-web/css/all.css" rel="stylesheet">
+
+    <!-- support v4 icon references/syntax -->
+    <link href="./assests/fontawesome-free-6.5.1-web/css/v4-shims.css" rel="stylesheet">
+<script type="module" src="scripts/loginscript.js" defer></script>
+
+<body>
+
+    <div class="container">
+      <div class="form" >
+        <div class="header">Welcome back</div>
+        <form action="quiz.html" >
+            
+
+            <div class="field email-field">
+                <div class="input-field">
+                 <input type="emai" class="email" placeholder="Email">
+                </div>
+                <span  class="error email-error">
+                    <!-- <i>X</i> -->
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <p class="error-text">please enter a valid email</p>
+                </span>
+            </div>
+
+            <div class="field cPassword-field">
+                <div class="input-field">
+                 <input type="password" class="password" placeholder="Password">
+                 <!-- <i class="eyee">@</i> -->
+                 <i class=" eyee fa-solid fa-eye-slash"></i>
+                </div>
+                <span class="error cpassword-error">
+                    <!-- <i>X</i> -->
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+
+                    <p class="error-text">please enter a valid passsword</p>
+                </span>
+            </div>
+
+         <div class="remember">
+            <input type="checkbox"  class="remBox" id="rem" >
+            <label for="rem">Remember me</label>
+         </div>
+
+            <div class="field">
+                <div class="input-field button">
+                    <input type="submit" name="submit" id="sub1" value="Login">
+                   
+                </div>
+            </div> 
+            <span class="confirm-error  hideSError">
+                <!-- <i>X</i> -->
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <p class="error-text">passsword or email is rong</p>
+            </span>
+        </form>
+       <div class="link">
+        <span>don't have an account</span>
+        <a href="signup.html">signUP</a>
+       </div>
+      </div>
+
+     
+      
+    </div>
+
+    
+</body>
+</html>

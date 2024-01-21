@@ -1,0 +1,411 @@
+[
+    {
+        "category": "programing",
+        "title": " 1  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+
+    {
+        "category": "programing",
+        "title": " 2  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "2<br>"},
+            {"name": "answer_2", "value": "2<a>"},
+            {"name": "answer_3", "value": "2<pre>"},
+            {"name": "answer_4", "value": "2<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "programing",
+        "title": " 3  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "3<br>"},
+            {"name": "answer_2", "value": "3<a>"},
+            {"name": "answer_3", "value": "3<pre>"},
+            {"name": "answer_4", "value": "3<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "programing",
+        "title": " 4  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "4<br>"},
+            {"name": "answer_2", "value": "4<a>"},
+            {"name": "answer_3", "value": "4<pre>"},
+            {"name": "answer_4", "value": "4<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "programing",
+        "title": " 5  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "5<br>"},
+            {"name": "answer_2", "value": "5<a>"},
+            {"name": "answer_3", "value": "5<pre>"},
+            {"name": "answer_4", "value": "5<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    }, 
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    }, 
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "history",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "science",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "science",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "science",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "science",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    }, 
+    {
+        "category": "science",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    }, 
+    {
+        "category": "science",
+        "title": " 111  Which of the following tag is used to insert a line-break in HTML?",
+        "answers": [
+            {"name": "answer_1", "value": "1<br>"},
+            {"name": "answer_2", "value": "1<a>"},
+            {"name": "answer_3", "value": "1<pre>"},
+            {"name": "answer_4", "value": "1<b>"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+  
+      {
+        "category": "math",
+        "title": "  1 is 3  2 is 3  3 is 5  4 is 4  5 is  4  Then 6 is ?",
+        "answers": [
+            {"name": "answer_1", "value": "3"},
+            {"name": "answer_2", "value": "5"},
+            {"name": "answer_3", "value": "4"},
+            {"name": "answer_4", "value": "6"}
+        ],
+        
+        "correct": "answer_4" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "math",
+        "title": " This tricky math problem went viral a few years back after it appeared on an entrance exam in Hong Kong… for six-year-olds. Supposedly the students had just 20 seconds to solve the problem!",
+        "answers": [
+            {"name": "answer_1", "value": "78"},
+            {"name": "answer_2", "value": "68"},
+            {"name": "answer_3", "value": "87"},
+            {"name": "answer_4", "value": "86"}
+        ],
+        
+        "correct": "answer_3" ,
+        "checkedOne" : "" 
+    },
+
+    {
+        "category": "math",
+        "title": " Which number is equivalent to 3^(4)÷3^(2) ? ",
+        "answers": [
+            {"name": "answer_1", "value": "10"},
+            {"name": "answer_2", "value": "9"},
+            {"name": "answer_3", "value": "7"},
+            {"name": "answer_4", "value": "11"}
+        ],
+        
+        "correct": "answer_2" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "math",
+        "title": " There are 49 dogs signed up for a dog show. There are 36 more small dogs than large dogs. How many small dogs have signed up to compete? ",
+        "answers": [
+            {"name": "answer_1", "value": "42.5"},
+            {"name": "answer_2", "value": "43.4"},
+            {"name": "answer_3", "value": "44.6"},
+            {"name": "answer_4", "value": "24.5"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "math",
+        "title": " Add 8.563 and 4.8292 ",
+        "answers": [
+            {"name": "answer_1", "value": "13.3922"},
+            {"name": "answer_2", "value": "13.3333"},
+            {"name": "answer_3", "value": "14.2424"},
+            {"name": "answer_4", "value": "12.2325"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "math",
+        "title": " I am an odd number. Take away one letter and I become even. What number am I?",
+        "answers": [
+            {"name": "answer_1", "value": "EIGHT"},
+            {"name": "answer_2", "value": "SIX"},
+            {"name": "answer_3", "value": "SEVEN"},
+            {"name": "answer_4", "value": "EIGHT"}
+        ],
+        
+        "correct": "answer_3" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "math",
+        "title": " Sally is 54 years old and her mother is 80, how many years ago was SallyIs mother times her age?",
+        "answers": [
+            {"name": "answer_1", "value": "41"},
+            {"name": "answer_2", "value": "42"},
+            {"name": "answer_3", "value": "43"},
+            {"name": "answer_4", "value": "44"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    }, 
+    {
+        "category": "math",
+        "title": "  How many feet are in a mile? ",
+        "answers": [
+            {"name": "answer_1", "value": "5287"},
+            {"name": "answer_2", "value": "5280"},
+            {"name": "answer_3", "value": "5281"},
+            {"name": "answer_4", "value": "5285"}
+        ],
+        
+        "correct": "answer_2" ,
+        "checkedOne" : "" 
+    }, {
+        "category": "math",
+        "title": " The day before yesterday I was 25. The next year I will be 28. This is true only one day in a year. What day is my Birthday? ",
+        "answers": [
+            {"name": "answer_1", "value": "jan 31"},
+            {"name": "answer_2", "value": "jun 31"},
+            {"name": "answer_3", "value": "septemer 30"},
+            {"name": "answer_4", "value": "December 30"}
+        ],
+        
+        "correct": "answer_4" ,
+        "checkedOne" : "" 
+    }, {
+        "category": "math",
+        "title": " Which 3 numbers have the same answer whether they re added or multiplied together?",
+        "answers": [
+            {"name": "answer_1", "value": "1,2,4"},
+            {"name": "answer_2", "value": "4,2,6"},
+            {"name": "answer_3", "value": "2,1,7"},
+            {"name": "answer_4", "value": "3,8,1"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    },
+    {
+        "category": "science",
+        "title": "Which blood type is the rarest in humans?",
+        "answers": [
+            {"name": "answer_1", "value": "AB negative"},
+            {"name": "answer_2", "value": "A positive"},
+            {"name": "answer_3", "value": "B negative"},
+            {"name": "answer_4", "value": "AB positive"}
+        ],
+        
+        "correct": "answer_1" ,
+        "checkedOne" : "" 
+    }
+  
+]
+
+
+

@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: rgb(8, 134, 245); */
+    color: azure;
+
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center ;
+    gap: 6px;
+    /* width: 90%; */
+    margin: 0 auto ;
+    height: 100vh;
+    /* background-color: rgb(220, 233, 229); */
+    background-image: url('../images/wallpaperflare.com_wallpaper\ \(2\).jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header{
+    /* grid-area: header; */
+    height: 70px;
+    width: 30%;
+    /* background-color: #c7cfcf; */
+    /* border: 1px solid red; */
+    /* display: flex; */
+    /* box-shadow: 0 2rem  #584a3d; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: absolute;
+    right: 1.5rem ;
+    top: 1rem;
+    border-radius: 7px;
+    opacity: 0.9;
+
+}
+
+.header .userInfo{
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+
+}
+
+
+.userInfo .userBadge{
+    display: flex;
+    gap: 1rem;
+    background-color: #0a0f0f98;
+    padding:0.7rem 0.5rem;
+    border-radius: 7px;
+    box-shadow: 2px -6px #0a0f0f 5deg   ;
+}
+.userInfo .leave{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.userInfo .leave i{
+    color: #dae2e2;
+    margin-left: 5px;
+}
+.userInfo .leave button{
+
+    font-size: 1rem;
+    padding: 1em 2.5em;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #0a0f0f;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.userInfo .leave button a{
+    text-decoration: none;
+
+}
+.userInfo .userBadge i{
+    color: rgb(0, 0, 0);
+
+}
+
+.userInfo .userBadge .userName{
+    color: #0a0f0f;
+}
+
+
+.inst{
+    width: 35%;
+    border-radius: 8px;
+    opacity: 0.7;
+    transition: all 0.3s ease; 
+}
+
+.inst:hover{
+    opacity: 1;
+
+}
+.inst .cotent:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.inst .cotent img {
+    width: 100%;
+    height: 100%;
+}
+
+.student{
+    /* background-color: rgb(56, 65, 65); */
+    width: 90% ;
+    /* border: 1px solid rgb(247, 243, 243); */
+}
+
+.student .selectBtn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 8px; */
+    width: 100%;
+    /* border: 1px solid rgb(206, 30, 30); */
+
+}
+
+.student .selectBtn .box {
+    width: 35%;
+    border-radius: 19px;
+    opacity: 0.7;
+    transition: all 0.3s ease; 
+    border: 1px solid rgb(206, 30, 30);
+    overflow: hidden;
+
+}
+.student .selectBtn .box:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.student .selectBtn .box img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.student .settingMode .testSetting{
+    /* background-color: rgba(184, 190, 188, 0.705); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 37%;
+    height: 40%;
+    margin-left: auto;
+    /* justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+
+
+}
+
+.student .settingMode .testSetting input{
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 1em;
+    border-radius: 6px;
+    color: black;
+
+}
+
+.student .settingMode .testSetting .btn{
+
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 1em;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 2px;
+    color: black;
+    cursor: pointer;
+}
+
+.student .settingMode .testSetting .confirm-id {
+    width: 100%;
+    display: flex;
+    gap: 13px;
+    font-size: 1.5rem;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+
+.student .settingMode .testSetting .confirm-id i,
+    .student .settingMode .testSetting .confirm-id p {
+
+        color: black;
+}
+
+.student .settingMode .PSetting{
+    /* display: none; */
+    border: 1px solid rgb(39, 1, 1);
+    /* background-color: rgba(184, 190, 188, 0.705); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 37%;
+    height: 50%;
+    margin-left: auto;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+
+
+}
+
+.student .settingMode .PSetting .field{
+    width:100% ;
+    /* border: 1px solid red; */
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 0 1rem;
+    text-align: start;
+    color: #071b1b;
+
+}
+
+.student .settingMode .PSetting .field input,
+.student .settingMode .PSetting .field select,
+    .student .settingMode .PSetting .field option{
+
+    height: 100%;
+    background-color: azure;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 0 2rem;
+    font-size: 1.1rem;
+    color: #071b1b;
+
+   
+
+}
+
+.field .sunSet{
+    height: 100%;
+    background-color: rgb(45, 204, 204);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    color: #071b1b;
+    transition: all 0.3s ease; 
+}
+.field .sunSet:hover{
+transform: scale(1.1);
+
+}
+
+.hidden{
+    display: none !important ; 
+}
+
+.confirm-error{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.confirm-error i,
+.confirm-error p{
+    color: rgb(189, 0, 0);
+    font-size: x-large;
+}

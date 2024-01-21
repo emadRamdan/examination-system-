@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background:linear-gradient( 130deg, #eb83ab, #5831db); */
+    background-image: url('../images/login\ page.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    /* background-color: #e9e5e5; */
+    /* background:linear-gradient( 130deg, #686464, #3a2972); */
+    margin-left: 5rem;
+    width: 100%;
+    max-width: 410px;
+    padding: 2rem;
+    border-radius: 6px;
+    background:linear-gradient( -130deg, #eef4ff, #a17546);
+    color: #000;
+    opacity: 0.7;
+}
+.container:hover{
+    background:linear-gradient( -130deg, #eef4ff, #a17546);
+    color: #000;
+    opacity: 1;
+}
+.container .header{
+    /* background-color: #eb83ab; */
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    /* color:aliceblue */
+    color: #000;
+
+}
+
+.field .input-field{
+    position: relative;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.field .input-field input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(233, 242, 250);
+    font-size: 1.1rem;
+
+    /* border: 1px solid #5831db; */
+}
+
+.field .input-field .userRole{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(233, 242, 250);
+    /* border: 1px solid #5831db; */
+}
+.field .input-field .userRole option{
+    height: 30px;
+    background-color: rgb(7, 39, 68);
+
+}
+.field .input-field .eyee{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.field span{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #dd0d0d;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    gap: 1rem;
+    margin: 10px 0 ;
+}
+
+.field .button input{
+    background:linear-gradient( 130deg, #a17546a1, #0a081354);
+    color: #ffffffa2;
+
+}
+
+.field .button input:hover{
+    background:linear-gradient( 130deg, #a17546, #0a0813a8);
+    color: #fffdfd;
+}
+
+.container .link{
+    /* background-color: aliceblue; */
+    color: #fffdfd;
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1.2rem;
+
+}
+
+.container .link a{
+    text-decoration: none;
+    text-transform: capitalize;
+    /* color: #c793e9; */
+    color: #000;
+
+    font-size: 1.2rem;
+
+}
+
+.container .link a:hover{
+    text-decoration: underline;
+}
+
+.field .error{
+    display: none;
+}
+
+.invalid .error{
+    display: flex;
+}
+
+.invalid  .input-field input{
+    border: 2px solid #dd0d0d
+}
+
+.remember{
+    /* color: #e4d6db; */
+    color: #000;
+
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding-left: 2rem;
+}
+
+ .remember .remBox{
+    width: 25px;
+    cursor: pointer;
+
+ }
+
+ .remember label:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
+
+ .confirm-error{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    color: #ff0000;
+ }
+
+ .confirm-error p{
+    font-size: 1.2rem;
+ }
+
+ .hideSError{
+    display: none;
+ }

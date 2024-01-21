@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #646161; */
+    background-image: url('../images/wallpaperflare.com_wallpaper\ \(3\).jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.quiz-app{
+    margin:-17px auto ;
+    width: 800px;
+    background-color: #f8f0f0;
+    padding: 15px;
+}
+
+.quiz-area .ques{
+    font-size: 1.3rem;
+}
+.quiz-app .timer #progress-bar{
+    z-index: 2;
+    width: 100%;
+    height: 18px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.quiz-app .timer #progress{
+    position: absolute;
+    height: 100%;
+    background:linear-gradient(90deg  ,#08f3b8 , #2983be );
+    transition: all 1.5s ease;
+
+
+}
+.quiz-info{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+.quiz-app .quiz-info .category{
+    flex: 1;
+}
+.quiz-app .quiz-info .count{
+    flex: 1;
+    text-align: right;
+}
+.quiz-app .answers-area{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+}
+.quiz-app .answers-area h3{
+    margin: 0px;
+}
+.quiz-app .answers-area{
+    background-color: #fff;
+    padding: 20px;
+    
+}
+.quiz-app .answers-area .answer{
+    background-color: #f9f9f9f9;
+    padding: 15px;
+    /* border: 1px solid; */
+   
+}
+.quiz-app .answers-area .answer:not(:last-child){
+    border-bottom: 1px solid #dfdfdf;
+}
+.quiz-app .answers-area .answer input[type="Radio"]:checked + label{
+    color: #063a33;
+}
+.quiz-app .answers-area .answer  label{
+    cursor: pointer;
+    font-weight: bold;
+    color: #666;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.quiz-app .submit{
+    background-color: #063a33;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.quiz-app .submit:focus {
+    outline: none;
+}
+.quiz-app .bulltes{
+    border-top:1px solid #dfdfdf ;
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+}
+.quiz-app .bulltes .spans{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.quiz-app .bulltes .spans span{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #eee;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    user-select: none;
+} 
+.quiz-app .bulltes .spans span.on{
+    background-color: #063a33;
+    color: #fff;
+}
+
+.quiz-app .bulltes .spans span.marcked{
+    background-color: #d1250e;
+    color: #fff;
+}
+.quiz-app .results span{
+    font-weight: bold;
+}
+.quiz-app .results{
+    text-align: center;
+}
+.quiz-app .results span.bad{
+    color: #dc0a0a;
+}
+.quiz-app .results span.good{
+    color: #009688;
+}
+.quiz-app .results span.prefect{
+    color: #063a33;
+}
+.nav-Info{
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+.navigation{
+    width: 100%;
+    margin: 5px auto;
+    background-color: #f9f9f9f9;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #063a33;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #063a33 ;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    user-select: none;
+    transition: all .3s ease;
+
+}
+
+.navigation button:hover {
+    background-color: #063a33;
+    border-color: #063a33;
+    transform: scale(1.1);
+
+}
+/* Active/focus effect */
+.navigation button:active,
+.navigation button:focus {
+    outline: none;
+    background-color: #063a33;
+    border-color: #063a33;
+}
+
+
+.notFound{
+    width: 50%;
+    height: 40%;
+    background-color: #868481b6;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 1rem;
+    text-align: center;
+    margin-right: 30rem;
+    margin-bottom: 5rem;
+    font-size: larger;
+    border-radius: 6px;
+    /* display: none; */
+}
+
+
+.notFound .face,
+.notFound .msg{
+    font-size: 3.5rem ;
+    color: #063a33;
+    user-select: none;
+}
+
+
+
+.hidden{
+    display: none !important;
+}
+
+.navigation .result{
+    background-color: #063a33;
+    padding: 1rem;
+    border-radius: 6px;
+    transition: all .3s ease;
+    
+  
+}
+
+.navigation .result a{
+
+    color: #dfdfdf ;
+    text-decoration: none ;
+    font-weight: bold;
+}
+
+.navigation .result:hover{
+    transform: scale(1.1);
+}
+
+.markContainer{
+    width: 20%;
+    height: 50%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 2%;
+    left: 0;
+    background-color: #f8f0f0;
+
+
+}
+
+.markContainer .head{
+
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.markContainer .markBox{
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.markBox .bulletbox{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #063a33;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    user-select: none;
+    position: relative;
+    color: #eee;
+    /* transition: all 1s ease; */
+
+
+}
+
+
+
+.markBox .bulletbox .delet{
+    position: absolute;
+    /* content: 'x'; */
+    top: -50%;
+    right: -8%;
+    /* border: 1px solid #dc0a0a; */
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    /* background-color: #dc0a0a; */
+    color: #dc0a0a;
+    text-align: center;
+    /* line-height: normal; */
+    padding: 0.4em;
+    font-size: 2rem;
+    display: none;
+    transition: all 0.3s ease;
+
+}
+
+.enter{
+    animation: enterScreen 0.5s ease-in   forwards ;
+
+}
+
+.leave{
+    animation: leaveScreen 1s ease-out   forwards ;
+
+}
+
+/* .markBox .bulletbox::after:hover{
+    display: block;
+} */
+
+
+@keyframes enterScreen {
+    0% {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes leaveScreen {
+    0% {
+        opacity: 1;
+        /* transform: translateY(0); */
+    }
+
+    100% {
+        opacity: 0;
+        /* transform: translateY(-800px); */
+
+    }
+}
